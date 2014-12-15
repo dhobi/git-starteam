@@ -1,10 +1,15 @@
+# Intellij
 .idea/*
 *.iml
 *.ipr
 
+# Gradle
 .gradle/*
 gradle/*
 build/*
+
+# Tests
+users.list
 
 # Please provide the Starteam SDK on your own
 lib/starteam.jar
