@@ -4,6 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.ossnoize.fakestarteam.UserProvider;
 
@@ -14,6 +15,7 @@ import com.starbase.starteam.RecycleBin;
 import com.starbase.starteam.Server;
 import com.starbase.starteam.View;
 
+@Ignore
 public class TestFolder {
 	
 	static Server server;

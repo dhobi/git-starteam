@@ -68,7 +68,7 @@ public class GitHelperTest {
 		Set<String> listOfFiles = test.getListOfTrackedFile("master");
 		assertNotNull(listOfFiles);
 		// Check for self in the list of files always start from the working directory. 
-		assertTrue(listOfFiles.contains("src/test/java/org/sync/githelper/test/GitHelperTest.java"));
+		assertTrue(listOfFiles.contains("syncronizer/src/test/java/org/sync/githelper/test/GitHelperTest.java"));
 		
 		Set<String> listOfNoFiles = test.getListOfTrackedFile("Non-existing-branch");
 		assertNotNull(listOfNoFiles);
