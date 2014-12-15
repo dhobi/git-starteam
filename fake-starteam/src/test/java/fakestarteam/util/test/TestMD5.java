@@ -2,10 +2,8 @@ package fakestarteam.util.test;
 
 import static org.junit.Assert.*;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -28,7 +26,7 @@ public class TestMD5 {
 							     53,  10,  47, 108,
 							    -32, -39, -39, 125,
 							   -117,  76,  19, 102 };
-		md5IpsumStream = getClass().getResourceAsStream("/fakestarteam/test/ressources/md5testfile.ipsum");
+		md5IpsumStream = new FileInputStream("src/test/resources/md5testfile.ipsum");
 	}
 
 	@After
