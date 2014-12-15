@@ -1,0 +1,10 @@
+.idea/*
+*.iml
+*.ipr
+
+.gradle/*
+gradle/*
+build/*
+
+# Please provide the Starteam SDK on your own
+lib/starteam.jar

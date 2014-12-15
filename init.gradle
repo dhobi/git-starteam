@@ -1,0 +1,14 @@
+useLogger(new CustomEventLogger())
+
+class CustomEventLogger extends BuildAdapter {
+    public void buildFinished(BuildResult result) {
+        if (result.failure != null) {
+            result.failure.printStackTrace()
+            println '##############################################################################################'
+            println 'Please make sure you have copied your Starteam SDK (i.e. starteam100.jar) to lib/starteam.jar'
+            println '##############################################################################################'
+        } else {
+            println 'BUILD SUCCESSFUL'
+        }
+    }
+}
