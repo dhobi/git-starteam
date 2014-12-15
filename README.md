@@ -3,7 +3,7 @@ https://github.com/planestraveler/git-starteam
 
 Additional things:
 
-1. Use gradle for dependeny management
+1. Use gradle for dependency management
 2. Use oneJar to make a portable artifact
 
 How to build:
