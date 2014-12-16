@@ -1,0 +1,2 @@
+Please copy your StarTeam SDK in this directory with the name starteam.jar
+C:\Program Files\Borland\StarTeam SDK X\Lib\starteamXXX.jar
