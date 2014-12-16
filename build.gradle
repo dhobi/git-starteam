@@ -42,7 +42,7 @@ project(':syncronizer') {
 	}
 
 	dependencies {
-		compile project(':fake-starteam')
+        testRuntime project(':fake-starteam')
 		compile name: 'starteam'
 	}
 
